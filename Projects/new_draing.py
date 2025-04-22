@@ -5,9 +5,9 @@ t.pensize(40)
 t.pendown()
 t.goto(0,0)
 t.setheading(90)
-t.speed(100)
+t.speed(0)
 colors = ["orange", "yellow", "purple", "black"]
-for i in range (10000):
+for i in range (5000):
   t.forward(59)
   t.left(100/(i+1)*100)
   t.color( colors[ i % 4 ] )
